@@ -27,34 +27,50 @@ swe-dev/
 
 ## Install
 
-### VS Code (Copilot, Preview)
+### GitHub Copilot CLI
 
-Requires `chat.plugins.enabled: true`.
+```bash
+copilot plugin marketplace add RCSnyder/swe-dev
+copilot plugin install swe-dev@swe-dev
+```
 
-- **From source:** Command Palette → `Chat: Install Plugin From Source` → paste `https://github.com/RCSnyder/swe-dev`.
-- **From a marketplace:** add `RCSnyder/swe-dev` (or any marketplace that lists it) to `chat.plugins.marketplaces` in your `settings.json`:
-
-  ```json
-  "chat.plugins.marketplaces": [
-    "RCSnyder/swe-dev"
-  ]
-  ```
-
-- **Local clone:** add the path to `chat.pluginLocations` with value `true`.
+> The direct-URL form (`copilot plugin install https://github.com/RCSnyder/swe-dev`) still works but is deprecated.
 
 ### Claude Code
 
 ```bash
-claude plugin install https://github.com/RCSnyder/swe-dev
+claude plugin marketplace add RCSnyder/swe-dev
+claude plugin install swe-dev@swe-dev
 ```
 
-### GitHub Copilot CLI
+### VS Code (Copilot, Preview)
+
+Requires `chat.plugins.enabled: true`. Add the marketplace to your `settings.json`:
+
+```json
+"chat.plugins.marketplaces": [
+  "RCSnyder/swe-dev"
+]
+```
+
+Then run **Chat: Install Plugin** from the Command Palette and pick `swe-dev`.
+
+VS Code also auto-discovers anything installed via the Copilot CLI from `~/.copilot/installed-plugins/`.
+
+### Verify the install
 
 ```bash
-copilot plugin install https://github.com/RCSnyder/swe-dev
+copilot plugin marketplace list   # swe-dev should appear
+copilot plugin list               # swe-dev should appear, version 1.0.0
 ```
 
-VS Code auto-discovers anything installed via the CLI from `~/.copilot/installed-plugins/`.
+Then in an interactive session:
+
+```
+/agent
+```
+
+The four `SWE Dev: ...` agents should be listed. Pick one and send a prompt to confirm it loads.
 
 ## Usage
 

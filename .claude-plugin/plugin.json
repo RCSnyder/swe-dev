@@ -1,0 +1,10 @@
+{
+  "name": "swe-dev",
+  "description": "Engineering judgment for AI coding agents; reusable patterns that elevate human reasoning, design, and system quality.",
+  "version": "0.1.0",
+  "author": {
+    "name": "R. Cooper Snyder"
+  },
+  "license": "MIT",
+  "agents": "agents/"
+}

@@ -1,6 +1,6 @@
 # swe-dev - Engineering Judgment for AI Coding Agents
 
-Elevate and accelerate human thinking and judgement to help solve harder software engineering problems with rigor.
+Elevate and accelerate human thinking and judgement to help solve harder software engineering problems with rigor and legibility.
 
 `swe-dev` is an agent plugin for VS Code Copilot, Claude Code, and GitHub Copilot CLI.
 
@@ -12,6 +12,7 @@ The totality of human intelligence cannot be fully reduced to a series of Markdo
 | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [swe-dev-conceptual-intelligence-architect](agents/swe-dev-conceptual-intelligence-architect.md) | Turns vague ideas into concepts, analogies, systems, learning paths, opportunity theses, and testable next artifacts.                             |
 | [swe-dev-visible-thinking-coach](agents/swe-dev-visible-thinking-coach.md)                       | Structures reasoning before output: clarifies the question, tests competing interpretations, exposes assumptions, and builds defensible judgment. |
+| [swe-dev-verifier-first-thinking](agents/swe-dev-verifier-first-thinking.md)                     | Pressure-tests claims, analogies, and AI-written code: separates verifying from solving and replaces 'I get it' with regeneration tests.          |
 | [swe-dev-high-bar-engineering](agents/swe-dev-high-bar-engineering.md)                           | Helps agents make scoped, maintainable code changes with clear plans, tests, compatibility checks, self-review, and tradeoff discipline.          |
 | [swe-dev-critical-systems-engineer](agents/swe-dev-critical-systems-engineer.md)                 | Reviews critical systems for invariants, justified abstractions, failure semantics, auditability, operability, and safe change.                   |
 
@@ -70,7 +71,7 @@ Then in an interactive session:
 /agent
 ```
 
-The four `SWE Dev: ...` agents should be listed. Pick one and send a prompt to confirm it loads.
+The five `SWE Dev: ...` agents should be listed. Pick one and send a prompt to confirm it loads.
 
 ## Usage
 

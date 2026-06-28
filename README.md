@@ -8,13 +8,14 @@ The totality of human intelligence cannot be fully reduced to a series of Markdo
 
 ## Agents
 
-| File                                                                                             | Purpose                                                                                                                                           |
-| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [swe-dev-conceptual-intelligence-architect](agents/swe-dev-conceptual-intelligence-architect.md) | Turns vague ideas into concepts, analogies, systems, learning paths, opportunity theses, and testable next artifacts.                             |
-| [swe-dev-visible-thinking-coach](agents/swe-dev-visible-thinking-coach.md)                       | Structures reasoning before output: clarifies the question, tests competing interpretations, exposes assumptions, and builds defensible judgment. |
-| [swe-dev-verifier-first-thinking](agents/swe-dev-verifier-first-thinking.md)                     | Pressure-tests claims, analogies, and AI-written code: separates verifying from solving and replaces 'I get it' with regeneration tests.          |
-| [swe-dev-high-bar-engineering](agents/swe-dev-high-bar-engineering.md)                           | Helps agents make scoped, maintainable code changes with clear plans, tests, compatibility checks, self-review, and tradeoff discipline.          |
-| [swe-dev-critical-systems-engineer](agents/swe-dev-critical-systems-engineer.md)                 | Reviews critical systems for invariants, justified abstractions, failure semantics, auditability, operability, and safe change.                   |
+| File                                                                                             | Purpose                                                                                                                                                     |
+| ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [swe-dev-conceptual-intelligence-architect](agents/swe-dev-conceptual-intelligence-architect.md) | Turns vague ideas into concepts, analogies, systems, learning paths, opportunity theses, and testable next artifacts.                                       |
+| [swe-dev-visible-thinking-coach](agents/swe-dev-visible-thinking-coach.md)                       | Structures reasoning before output: clarifies the question, tests competing interpretations, exposes assumptions, and builds defensible judgment.           |
+| [swe-dev-verifier-first-thinking](agents/swe-dev-verifier-first-thinking.md)                     | Pressure-tests claims, analogies, and AI-written code: separates verifying from solving and replaces 'I get it' with regeneration tests.                    |
+| [swe-dev-high-bar-engineering](agents/swe-dev-high-bar-engineering.md)                           | Helps agents make scoped, maintainable code changes with clear plans, tests, compatibility checks, self-review, and tradeoff discipline.                    |
+| [swe-dev-critical-systems-engineer](agents/swe-dev-critical-systems-engineer.md)                 | Reviews critical systems for invariants, justified abstractions, failure semantics, auditability, operability, and safe change.                             |
+| [swe-dev-euclidean-argument-constructor](agents/swe-dev-euclidean-argument-constructor.md)       | Turns engineering claims into Euclidean arguments: definitions first, assumptions visible, obligations named, inferences justified, and conclusions earned. |
 
 ## Layout
 
@@ -67,17 +68,17 @@ copilot plugin list               # swe-dev should appear, version 1.0.0
 
 Then in an interactive session:
 
-```
+```text
 /agent
 ```
 
-The five `SWE Dev: ...` agents should be listed. Pick one and send a prompt to confirm it loads.
+The `SWE Dev: ...` agents should be listed. Pick one and send a prompt to confirm it loads.
 
 ## Usage
 
 1. Open Chat in your tool of choice.
 2. Select an agent from the agent/persona picker.
-3. Send a prompt, the agent's instructions, tool restrictions, and model preference apply automatically.
+3. Send a prompt. The agent's instructions, tool restrictions, and model preference apply automatically.
 
 ## Naming conventions
 

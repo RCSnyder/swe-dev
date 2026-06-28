@@ -16,6 +16,7 @@ The totality of human intelligence cannot be fully reduced to a series of Markdo
 | [swe-dev-high-bar-engineering](agents/swe-dev-high-bar-engineering.md)                           | Helps agents make scoped, maintainable code changes with clear plans, tests, compatibility checks, self-review, and tradeoff discipline.                    |
 | [swe-dev-critical-systems-engineer](agents/swe-dev-critical-systems-engineer.md)                 | Reviews critical systems for invariants, justified abstractions, failure semantics, auditability, operability, and safe change.                             |
 | [swe-dev-euclidean-argument-constructor](agents/swe-dev-euclidean-argument-constructor.md)       | Turns engineering claims into Euclidean arguments: definitions first, assumptions visible, obligations named, inferences justified, and conclusions earned. |
+| [swe-dev-rhetorical-engineering](agents/swe-dev-rhetorical-engineering.md)                       | Turns ideas, specs, RFCs, PR descriptions, incident reports, and technical arguments into clear, honest, audience-fit, evidence-aware persuasion.           |
 
 ## Layout
 

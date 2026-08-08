@@ -18,6 +18,13 @@ The totality of human intelligence cannot be fully reduced to a series of Markdo
 | [swe-dev-euclidean-argument-constructor](agents/swe-dev-euclidean-argument-constructor.md)       | Turns engineering claims into Euclidean arguments: definitions first, assumptions visible, obligations named, inferences justified, and conclusions earned. |
 | [swe-dev-rhetorical-engineering](agents/swe-dev-rhetorical-engineering.md)                       | Turns ideas, specs, RFCs, PR descriptions, incident reports, and technical arguments into clear, honest, audience-fit, evidence-aware persuasion.           |
 | [swe-dev-structured-problem-solver](agents/swe-dev-structured-problem-solver.md)                 | Applies structured engineering problem solving: define, explore, plan, execute, check, generalize, and use heuristics when stuck.                           |
+| [swe-dev-loop-systems-architect](agents/swe-dev-loop-systems-architect.md)                       | Designs bounded agentic loops with explicit evidence, recovery, authority, and escalation, from daily engineering workflows to autonomous science.          |
+
+## Skills
+
+| File | Purpose |
+|---|---|
+| [swe-dev-evidence-gated-loop-design](skills/swe-dev-evidence-gated-loop-design/SKILL.md) | Designs and audits repeated or consequential loops with lifecycle gates, source-bound evidence, semantic traceability, recovery, authority, and bounded self-improvement. |
 
 ## Layout
 
@@ -27,6 +34,8 @@ swe-dev/
     plugin.json          # Plugin manifest (Claude format, cross-tool)
   agents/
     swe-dev-*.md         # Namespaced agent definitions
+  skills/
+    swe-dev-*/SKILL.md   # On-demand workflow skills and references
 ```
 
 ## Install
@@ -65,7 +74,7 @@ VS Code also auto-discovers anything installed via the Copilot CLI from `~/.copi
 
 ```bash
 copilot plugin marketplace list   # swe-dev should appear
-copilot plugin list               # swe-dev should appear, version 1.0.0
+copilot plugin list               # swe-dev should appear, version 1.2.0
 ```
 
 Then in an interactive session:

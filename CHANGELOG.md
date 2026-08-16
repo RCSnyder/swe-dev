@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/RCSnyder/swe-dev/compare/v1.2.0...v1.3.0) (2026-08-08)
+
+
+### Features
+
+* **swe-dev:** add loop systems architect ([77b5fc8](https://github.com/RCSnyder/swe-dev/commit/77b5fc8b659cf33b0bfb4b84f9a04c6488277bd5))
+
 ## [1.2.0](https://github.com/RCSnyder/swe-dev/compare/v1.1.0...v1.2.0) (2026-06-28)
 
 

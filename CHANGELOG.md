@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/RCSnyder/swe-dev/compare/v1.4.0...v1.5.0) (2026-08-16)
+
+
+### Features
+
+* **swe-dev:** add change assurance agent ([d9a233c](https://github.com/RCSnyder/swe-dev/commit/d9a233c15152a6f34907118de1c1169078c0a3ae))
+
 ## [1.4.0](https://github.com/RCSnyder/swe-dev/compare/v1.3.0...v1.4.0) (2026-08-16)
 
 

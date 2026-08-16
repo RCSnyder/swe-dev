@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/RCSnyder/swe-dev/compare/v1.3.0...v1.4.0) (2026-08-16)
+
+
+### Features
+
+* **swe-dev:** add theoretical minimum agent ([8e15789](https://github.com/RCSnyder/swe-dev/commit/8e1578912315d67e6a6f28e6aeb266041746ca96))
+
 ## [1.3.0](https://github.com/RCSnyder/swe-dev/compare/v1.2.0...v1.3.0) (2026-08-08)
 
 

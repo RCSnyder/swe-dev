@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.0](https://github.com/RCSnyder/swe-dev/compare/v1.5.0...v1.6.0) (2026-08-30)
+
+
+### Features
+
+* **swe-dev:** add perf aware skill ([6fb5c2c](https://github.com/RCSnyder/swe-dev/commit/6fb5c2cf2b532c44e03a2b6894f966b183b39339))
+* **swe-dev:** add perf aware skill ([1896b99](https://github.com/RCSnyder/swe-dev/commit/1896b990e41d0de0013c9002fd2782f0aea8d5da))
+
 ## [1.5.0](https://github.com/RCSnyder/swe-dev/compare/v1.4.0...v1.5.0) (2026-08-16)
 
 
